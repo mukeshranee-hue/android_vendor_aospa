@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+    Copyright (C) 2026 The PenguinOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <project path="device/motorola/mumba" name="vansika280/android_device_motorola_mumba" remote="github" revision="celerity" />
+  <project path="device/motorola/mumba-kernel" name="vansika280/android_device_motorola_mumba-kernel" remote="github" revision="celerity" clone-depth="1" />
+  <project path="hardware/dolby" name="vansika280/android_hardware_dolby" remote="github" revision="celerity" />
+  <project path="hardware/motorola" name="vansika280/android_hardware_motorola" remote="github" revision="celerity" />
+  <project path="vendor/motorola/mumba" name="vansika280/proprietary_vendor_motorola_mumba" remote="github" revision="celerity" clone-depth="1" />
+
+  <!-- QCOM sm8450-6.6 HALs -->
+  <project path="hardware/qcom/display" name="vansika280/android_hardware_qcom_display" remote="github" revision="celerity" />
+  <project path="vendor/qcom/opensource/display-core" name="LineageOS/android_vendor_qcom_opensource_display-core" remote="github" revision="lineage-24.0-caf-sm8450-6.6" />
+  <project path="vendor/qcom/opensource/display-intf" name="LineageOS/android_vendor_qcom_opensource_display-intf" remote="github" revision="lineage-24.0-caf-sm8450-6.6" />
+  <project path="vendor/qcom/opensource/agm" name="LineageOS/android_vendor_qcom_opensource_agm" remote="github" revision="lineage-24.0-caf-sm8450-6.6" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" remote="github" revision="lineage-24.0-caf-sm8450-6.6" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="Project-PenguinOS/vendor_qcom_opensource_audio-hal_st-hal-ar" remote="penguin" revision="celerity" />
+  <project path="vendor/qcom/opensource/audioreach-graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" remote="github" revision="lineage-24.0-caf-sm8450-6.6" />
+  <project path="vendor/qcom/opensource/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" remote="github" revision="lineage-24.0-caf-sm8450-6.6" />
+</manifest>
